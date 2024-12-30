@@ -44,7 +44,6 @@ const useFunc = () => {
     {/* Handle "Done" button click */}
     const handleDone = () => {
         const selectedPages = getSelectedPages();
-        console.log(selectedPages);
 
         if (selectedPages.length === 0) return toast.error("Please select at least one page");
 
