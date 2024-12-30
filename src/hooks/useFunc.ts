@@ -1,5 +1,5 @@
 import {useState} from "react";
-import {CheckboxState} from "../../utils";
+import {CheckboxState} from "../lib/type.ts";
 import {toast} from "sonner";
 
 const useFunc = () => {

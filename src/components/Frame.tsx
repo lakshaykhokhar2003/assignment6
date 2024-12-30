@@ -1,6 +1,7 @@
 import React from "react";
 import {Checkbox} from "@/components/ui/checkbox";
-import {CheckboxState, pages} from "../../utils";
+import {CheckboxState} from "../lib/type.ts";
+import {pages} from "@/lib/utils.ts";
 import useFunc from "@/hooks/useFunc.ts";
 
 const Frame: React.FC = () => {

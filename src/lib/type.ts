@@ -5,5 +5,3 @@ export interface CheckboxState {
     page3: boolean;
     page4: boolean;
 }
-
-export const pages = ["page1", "page2", "page3", "page4"]
